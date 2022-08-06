@@ -14,7 +14,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     /** Creates new form TelaPrincipal */
     
     boolean emOperacao = false;
-    String saida = "";
+    String saida = "0";
     public TelaPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -48,12 +48,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jLabelIgual = new javax.swing.JLabel();
         jLabelResultado = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("1");
@@ -63,6 +65,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("2");
@@ -72,6 +75,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("3");
@@ -81,6 +85,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("4");
@@ -90,6 +95,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("5");
@@ -99,6 +105,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("6");
@@ -108,6 +115,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel7.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("7");
@@ -117,6 +125,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel8.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("8");
@@ -126,6 +135,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("9");
@@ -135,6 +145,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabelMais.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabelMais.setForeground(new java.awt.Color(255, 255, 255));
         jLabelMais.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMais.setText("+");
@@ -144,6 +155,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabelMenos.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabelMenos.setForeground(new java.awt.Color(255, 255, 255));
         jLabelMenos.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMenos.setText("-");
@@ -153,6 +165,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabelIgual.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabelIgual.setForeground(new java.awt.Color(255, 255, 255));
         jLabelIgual.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelIgual.setText("=");
@@ -162,10 +175,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabelResultado.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabelResultado.setForeground(new java.awt.Color(255, 255, 255));
         jLabelResultado.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabelResultado.setText("Resultado");
+        jLabelResultado.setText("0");
 
+        jLabel10.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("0");
@@ -175,52 +190,66 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabel11.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setText("X");
+        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel11MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(11, Short.MAX_VALUE)
+                .addComponent(jLabelResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(37, 37, 37)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabelResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addGap(64, 64, 64)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabelMais, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabelMenos, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabelIgual, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(20, Short.MAX_VALUE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(46, 46, 46)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabelMais, javax.swing.GroupLayout.DEFAULT_SIZE, 22, Short.MAX_VALUE)
+                    .addComponent(jLabelMenos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabelIgual, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(103, 103, 103)
+                .addGap(77, 77, 77)
                 .addComponent(jLabelResultado)
-                .addGap(18, 18, 18)
+                .addGap(22, 22, 22)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(jLabel2)
@@ -259,7 +288,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         // TODO add your handling code here:
-        saida += 1;
+        char transferir[] = saida.toCharArray();
+        for(int i = 0; i < transferir.length; i++){
+            System.out.println(i+1 + " caractere:"+ transferir[i]);
+        }
+        if(saida.equals("0")){
+            saida = "1";
+        }else{
+            saida += 1;
+        }
         atualizarResultado(saida);
         emOperacao = false;
         
@@ -342,8 +379,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         if(emOperacao){
             char transferir[] = saida.toCharArray();
             saida = "";
-            if(saida.equals("+ ")){
-                for(int i = 0; i < transferir.length - 2; i++){
+            if(saida.equals("+")){
+                for(int i = 0; i < transferir.length - 1; i++){
                     saida += transferir[i];
                 }
             }else{
@@ -355,7 +392,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         }
         
         if(saida.equals("")){
-            saida +="+ ";
+            saida +="+";
         }else{
             saida +=" + ";
         }
@@ -372,8 +409,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         if(emOperacao){
             char transferir[] = saida.toCharArray();
             saida = "";
-            if(saida.equals("- ")){
-                for(int i = 0; i < transferir.length - 2; i++){
+            if(saida.equals("-")){
+                for(int i = 0; i < transferir.length - 1; i++){
                     saida += transferir[i];
                 }
             }else{
@@ -385,11 +422,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
         }
         
         if(saida.equals("")){
-            saida +="- ";
+            saida +="-";
         }else{
             saida +=" - ";
         }
         atualizarResultado(saida);
+        
+        emOperacao = true;
         
     }//GEN-LAST:event_jLabelMenosMouseClicked
 
@@ -411,67 +450,78 @@ public class TelaPrincipal extends javax.swing.JFrame {
             System.out.println("     operacoes:" + operacoes[0] + "|" + operacoes[1] + "|");
             */
             
-            
-            saida = saida.replace("+", "mais");
-            saida = saida.replace("-", "menos");
-            String resultado[] = saida.split("mais|menos"); // Tirando a soma e a subtração para que fique apenas os números
-            System.out.println("Primeiro Resultado:"+resultado[0]);
-            
-            int contResultado = 1;
-            if(caractere[0] != '-' && caractere[0] != '+'){
-                calculo = Integer.parseInt(resultado[0]);
-            }
-            
-            for(int i = 0; i < caractere.length; i++){
-                if(caractere[i] == '+'){
-                    calculo += Integer.parseInt(resultado[contResultado]);
-                    contResultado++;
-                }else{
-                    if(caractere[i] == '-'){
-                        calculo -= Integer.parseInt(resultado[contResultado]);
-                        contResultado++;
-                    }
+            if(caractere[caractere.length-1] == '-' || caractere[caractere.length-1] == '+'){
+                // Se a pessoa clicar em um número e depóis em uma operação, tirar a operação e deixar apenas o número
+                saida = "";
+                for(int i = 0; i < caractere.length-1; i++){
+                    saida += caractere[i];
                 }
-            }
-            /*
-            for(int i = 0; i < operacoes.length; i++){
-                if(operacoes[i].contains("+")){
-                    calculo += Integer.parseInt(resultado[i]);
-                }else{
-                    if(operacoes[i].contains("-")){
-                        calculo -= Integer.parseInt(resultado[i]);
-                    }
-                }
-            }*/
-            
-            
-            /*
-            if(saida.contains("+") && !saida.contains("-")){ // Se na saida tem +, mas n tem -
-                calculo = Integer.parseInt(resultado[0]);
-                for(int i = 1; i < resultado.length; i++){
-                    calculo += Integer.parseInt(resultado[i]);
-                }
+                
+                atualizarResultado(saida);
             }else{
-                if(saida.contains("-") && !saida.contains("+")){ // Se na saida tem -, mas n tem +
-                    String resultado[] = saida.split(" menos ");
-                    System.out.println(resultado[0]);
-                    calculo = Integer.parseInt(resultado[0]);
+                saida = saida.replace("+", "mais");
+                saida = saida.replace("-", "menos");
+                String resultado[] = saida.split("mais|menos"); // Tirando a soma e a subtração para que fique apenas os números
+                System.out.println("Primeiro Resultado:"+resultado[0]);
 
-                    for(int i = 1; i < resultado.length; i++){
-                        calculo -= Integer.parseInt(resultado[i]);
+                int contResultado = 1;
+                if(caractere[0] != '-' && caractere[0] != '+'){
+                    calculo = Integer.parseInt(resultado[0]);
+                }
+
+                for(int i = 0; i < caractere.length; i++){
+                    if(caractere[i] == '+'){
+                        calculo += Integer.parseInt(resultado[contResultado]);
+                        contResultado++;
+                    }else{
+                        if(caractere[i] == '-'){
+                            calculo -= Integer.parseInt(resultado[contResultado]);
+                            contResultado++;
+                        }
                     }
-                }else{ // Na saida tem - e tem +
-                    saida = saida.replace("+", "mais");
-                    String resultado[] = saida.split(" mais ");
-                    for(int i = 1; i < resultado.length - 1; i++){
+                }
+                /*
+                for(int i = 0; i < operacoes.length; i++){
+                    if(operacoes[i].contains("+")){
+                        calculo += Integer.parseInt(resultado[i]);
+                    }else{
+                        if(operacoes[i].contains("-")){
+                            calculo -= Integer.parseInt(resultado[i]);
+                        }
+                    }
+                }*/
+
+
+                /*
+                if(saida.contains("+") && !saida.contains("-")){ // Se na saida tem +, mas n tem -
+                    calculo = Integer.parseInt(resultado[0]);
+                    for(int i = 1; i < resultado.length; i++){
                         calculo += Integer.parseInt(resultado[i]);
                     }
-                    resultado[resultado.length-1] = resultado[resultado.length-1].replace("-", "menos");
+                }else{
+                    if(saida.contains("-") && !saida.contains("+")){ // Se na saida tem -, mas n tem +
+                        String resultado[] = saida.split(" menos ");
+                        System.out.println(resultado[0]);
+                        calculo = Integer.parseInt(resultado[0]);
+
+                        for(int i = 1; i < resultado.length; i++){
+                            calculo -= Integer.parseInt(resultado[i]);
+                        }
+                    }else{ // Na saida tem - e tem +
+                        saida = saida.replace("+", "mais");
+                        String resultado[] = saida.split(" mais ");
+                        for(int i = 1; i < resultado.length - 1; i++){
+                            calculo += Integer.parseInt(resultado[i]);
+                        }
+                        resultado[resultado.length-1] = resultado[resultado.length-1].replace("-", "menos");
+                    }
                 }
+                */
+                saida = calculo + "";
+                atualizarResultado(saida);
             }
-            */
-            saida = calculo + "";
-            atualizarResultado(saida);
+            
+            
         }
         
         /*
@@ -482,6 +532,29 @@ public class TelaPrincipal extends javax.swing.JFrame {
             calculo += Integer.parseInt(resultado[i]);
         }*/
     }//GEN-LAST:event_jLabelIgualMouseClicked
+
+    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+        // TODO add your handling code here:
+        char caractere[] = saida.toCharArray();
+        saida = "";
+        if(caractere.length <= 1){
+            saida = "0";
+        }else{
+            if(caractere[caractere.length-1] == ' ' && caractere[caractere.length-2] == '+' || caractere[caractere.length-2] == '-'){
+                for(int i = 0; i < caractere.length-3; i++){
+                    saida+= caractere[i];
+                }
+            }else{
+                for(int i = 0; i < caractere.length-1; i++){
+                    saida+= caractere[i];
+                }
+
+            }
+        }
+        
+        
+        atualizarResultado(saida);
+    }//GEN-LAST:event_jLabel11MouseClicked
 
     /**
      * @param args the command line arguments
@@ -521,6 +594,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
